@@ -22,29 +22,9 @@ class Glade < Gtk::Builder
 	def fromString gladeString
 		self.add_from_string(gladeString)
 	end
-
-	def button_clicked w
-		case w.label
-			when 'quit'
-				Gtk::main_quit
-			else
-				puts "# button_clicked : " + w.label
-		end
-	end
 end
 
 if __FILE__ == $0
-
-	require 'optparse'
-
-	options = {}
-	OptionParser.new do |opts|
-	  opts.banner = "Usage: example.rb [options]"
-
-	  opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
-	    options[:verbose] = v
-	  end
-	end.parse!
 
 	builder = Glade.new("account.glade")
 	Gtk.main

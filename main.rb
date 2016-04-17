@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require_relative 'Gui'
+
 if __FILE__ == $0
 
 	# ARGV.each do|a|
@@ -19,5 +21,7 @@ if __FILE__ == $0
 
 	p options
 	p ARGV
+
+	Gui.new
 
 end
