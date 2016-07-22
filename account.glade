@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.16.1 -->
 <interface>
-  <!-- interface-requires gtk+ 3.0 -->
+  <requires lib="gtk+" version="3.0"/>
   <object class="GtkWindow" id="window1">
     <property name="can_focus">False</property>
     <child>
@@ -171,51 +172,48 @@
             <property name="can_focus">False</property>
             <property name="orientation">vertical</property>
             <child>
-              <object class="GtkGrid" id="grid7">
+              <object class="GtkBox" id="box6">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
                   <object class="GtkEntry" id="entry19">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
                     <property name="editable">False</property>
                     <property name="invisible_char">●</property>
                     <property name="text" translatable="yes">Date -1</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
                   <object class="GtkEntry" id="entry20">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
                     <property name="editable">False</property>
                     <property name="invisible_char">●</property>
                     <property name="text" translatable="yes">1500</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
                   <object class="GtkButton" id="button2">
                     <property name="label" translatable="yes">show previous events</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
               </object>
@@ -226,7 +224,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkSeparator" id="separator1">
+              <object class="GtkSeparator" id="separator2">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
               </object>
@@ -237,110 +235,97 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid1">
+              <object class="GtkBox" id="box7">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image1">
+                  <object class="GtkImage" id="image7">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="stock">gtk-go-up</property>
-                    <property name="icon-size">2</property>
+                    <property name="xalign">0</property>
+                    <property name="yalign">0</property>
+                    <property name="pixbuf">credit.png</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry1">
+                  <object class="GtkEntry" id="entry27">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">30%</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry5">
+                  <object class="GtkEntry" id="entry28">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">Date 1</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry9">
+                  <object class="GtkEntry" id="entry29">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">450</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry13">
+                  <object class="GtkComboBoxText" id="comboboxtext6">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">detes rendus</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">5</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkComboBoxText" id="comboboxtext1">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="entry_text_column">0</property>
-                    <property name="id_column">1</property>
                     <items>
                       <item translatable="yes">EUR</item>
                       <item translatable="yes">SEK</item>
                     </items>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="button3">
-                    <property name="label" translatable="yes">button</property>
+                  <object class="GtkEntry" id="entry30">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">detes rendus</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="button8">
+                    <property name="label" translatable="yes">delete</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">6</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -351,110 +336,95 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid2">
+              <object class="GtkBox" id="box8">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image2">
+                  <object class="GtkImage" id="image1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="stock">gtk-go-up</property>
-                    <property name="icon-size">2</property>
+                    <property name="pixbuf">credit.png</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry2">
+                  <object class="GtkEntry" id="entry1">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">50%</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry6">
+                  <object class="GtkEntry" id="entry5">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">Date 2</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry10">
+                  <object class="GtkEntry" id="entry9">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">975</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">450</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry14">
+                  <object class="GtkComboBoxText" id="comboboxtext1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">petit boulots</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">5</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkComboBoxText" id="comboboxtext2">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="entry_text_column">0</property>
-                    <property name="id_column">1</property>
                     <items>
                       <item translatable="yes">EUR</item>
                       <item translatable="yes">SEK</item>
                     </items>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="button4">
-                    <property name="label" translatable="yes">button</property>
+                  <object class="GtkEntry" id="entry39">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">petit boulots</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="button3">
+                    <property name="label" translatable="yes">delete</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">6</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -465,110 +435,95 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid3">
+              <object class="GtkBox" id="box9">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image3">
+                  <object class="GtkImage" id="image8">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="stock">gtk-go-down</property>
-                    <property name="icon-size">2</property>
+                    <property name="pixbuf">debit.png</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry3">
+                  <object class="GtkEntry" id="entry13">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">0.2%</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry7">
+                  <object class="GtkEntry" id="entry31">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">Date 3</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry11">
+                  <object class="GtkEntry" id="entry32">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">-5,85</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry15">
+                  <object class="GtkComboBoxText" id="comboboxtext7">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">une biere</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">5</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkComboBoxText" id="comboboxtext3">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="entry_text_column">0</property>
-                    <property name="id_column">1</property>
                     <items>
                       <item translatable="yes">EUR</item>
                       <item translatable="yes">SEK</item>
                     </items>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="button5">
-                    <property name="label" translatable="yes">button</property>
+                  <object class="GtkEntry" id="entry40">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">une biere</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="button9">
+                    <property name="label" translatable="yes">delete</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">6</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -579,108 +534,95 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid4">
+              <object class="GtkBox" id="box10">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image4">
+                  <object class="GtkImage" id="image9">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="stock">gtk-go-down</property>
-                    <property name="icon-size">2</property>
+                    <property name="pixbuf">debit.png</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry4">
+                  <object class="GtkEntry" id="entry33">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">0.01%</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry8">
+                  <object class="GtkEntry" id="entry34">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">Date 4</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry12">
+                  <object class="GtkEntry" id="entry35">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">-2</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry16">
+                  <object class="GtkComboBoxText" id="comboboxtext8">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">5</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkComboBoxText" id="comboboxtext4">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="entry_text_column">0</property>
-                    <property name="id_column">1</property>
                     <items>
                       <item translatable="yes">EUR</item>
                       <item translatable="yes">SEK</item>
                     </items>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="button6">
-                    <property name="label" translatable="yes">button</property>
+                  <object class="GtkEntry" id="entry41">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">un sneakers</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="button10">
+                    <property name="label" translatable="yes">delete</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">6</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -691,111 +633,95 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid5">
+              <object class="GtkBox" id="box11">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkEntry" id="entry23">
+                  <object class="GtkImage" id="image10">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="pixbuf">debit.png</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entry36">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">0.01%</property>
-                    <property name="invisible_char_set">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry24">
+                  <object class="GtkEntry" id="entry37">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="text" translatable="yes">Date 4</property>
-                    <property name="invisible_char_set">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">Date 5</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry25">
+                  <object class="GtkEntry" id="entry38">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="invisible_char_set">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">-2</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry26">
+                  <object class="GtkComboBoxText" id="comboboxtext9">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
-                    <property name="invisible_char_set">True</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">5</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkComboBoxText" id="comboboxtext5">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="entry_text_column">0</property>
-                    <property name="id_column">1</property>
                     <items>
                       <item translatable="yes">EUR</item>
                       <item translatable="yes">SEK</item>
                     </items>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="button7">
-                    <property name="label" translatable="yes">button</property>
+                  <object class="GtkEntry" id="entry42">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="text" translatable="yes">un autre sneakers</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="button11">
+                    <property name="label" translatable="yes">delete</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">6</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkImage" id="image6">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="stock">gtk-go-down</property>
-                  </object>
-                  <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -819,76 +745,65 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid6">
+              <object class="GtkBox" id="box12">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image5">
+                  <object class="GtkImage" id="image2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="stock">gtk-justify-fill</property>
                   </object>
                   <packing>
-                    <property name="left_attach">0</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry17">
+                  <object class="GtkEntry" id="entry2">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">0.0%:0.0%/0.0%</property>
                   </object>
                   <packing>
-                    <property name="left_attach">1</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry18">
+                  <object class="GtkEntry" id="entry3">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                     <property name="text" translatable="yes">Date 3</property>
                   </object>
                   <packing>
-                    <property name="left_attach">2</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry21">
+                  <object class="GtkEntry" id="entry4">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">3</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry22">
+                  <object class="GtkEntry" id="entry6">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="invisible_char">●</property>
+                    <property name="can_focus">True</property>
                   </object>
                   <packing>
-                    <property name="left_attach">4</property>
-                    <property name="top_attach">0</property>
-                    <property name="width">1</property>
-                    <property name="height">1</property>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
                   </packing>
                 </child>
               </object>
@@ -907,27 +822,5 @@
         </child>
       </object>
     </child>
-  </object>
-  <object class="GtkSizeGroup" id="sizegroup1">
-    <widgets>
-      <widget name="entry1"/>
-      <widget name="entry2"/>
-      <widget name="entry3"/>
-      <widget name="entry17"/>
-    </widgets>
-  </object>
-  <object class="GtkSizeGroup" id="sizegroup2">
-    <widgets>
-      <widget name="image1"/>
-      <widget name="image2"/>
-      <widget name="image3"/>
-      <widget name="image4"/>
-      <widget name="image5"/>
-    </widgets>
-  </object>
-  <object class="GtkSizeGroup" id="sizegroup3">
-    <widgets>
-      <widget name="entry8"/>
-    </widgets>
   </object>
 </interface>
