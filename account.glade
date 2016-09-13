@@ -2,14 +2,14 @@
 <!-- Generated with glade 3.16.1 -->
 <interface>
   <requires lib="gtk+" version="3.0"/>
-  <object class="GtkGrid" id="grid0">
+  <object class="GtkGrid" id="grid-template-constructed0">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <child>
       <object class="GtkImage" id="image7">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="stock">gtk-clear</property>
+        <property name="stock">gtk-unknown</property>
         <property name="icon_size">2</property>
       </object>
       <packing>
@@ -126,10 +126,10 @@
       <widget name="entry8"/>
     </widgets>
   </object>
-  <object class="GtkWindow" id="window1">
+  <object class="GtkWindow" id="window-main1">
     <property name="can_focus">False</property>
     <child>
-      <object class="GtkBox" id="box1">
+      <object class="GtkBox" id="box-index1">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="orientation">vertical</property>
@@ -291,7 +291,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkBox" id="box5">
+          <object class="GtkBox" id="box-body1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="orientation">vertical</property>
@@ -362,7 +362,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkBox" id="box2">
+              <object class="GtkBox" id="box-eventpile1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="orientation">vertical</property>
@@ -929,7 +929,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="button1">
+              <object class="GtkButton" id="button-addevent1">
                 <property name="label" translatable="yes">new event</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
