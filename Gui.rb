@@ -8,7 +8,7 @@ class Gui < Glade
 
     self.destroy_handler "window-main1"
 
-    self["button-addevent1"].signal_connect "clicked" do
+    self["button-addevent1"].signal_connect 'clicked' do
       self.append
     end
   end

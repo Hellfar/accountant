@@ -21,9 +21,13 @@ class Glade < Gtk::Builder
   end
 
   def destroy_handler rootObject = "window1"
-    self[rootObject].signal_connect('destroy') { Gtk.main_quit }
+    self[rootObject].signal_connect 'destroy' do
+      Gtk.main_quit
+    end
     self[rootObject].show_all
-    self.connect_signals{ |handler| method(handler) }
+    self.connect_signals do | handler |
+      method handler
+    end
   end
 end
 
