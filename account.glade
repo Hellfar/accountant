@@ -911,11 +911,11 @@
               </packing>
             </child>
             <child>
-              <object class="GtkGrid" id="grid6">
+              <object class="GtkBox" id="box1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
-                  <object class="GtkImage" id="image5">
+                  <object class="GtkImage" id="image7">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="stock">gtk-justify-fill</property>
@@ -927,11 +927,9 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry17">
+                  <object class="GtkEntry" id="entry27">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
                     <property name="text" translatable="yes">0.0%:0.0%/0.0%</property>
                   </object>
                   <packing>
@@ -941,11 +939,9 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry18">
+                  <object class="GtkEntry" id="entry28">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="editable">False</property>
-                    <property name="invisible_char">●</property>
                     <property name="text" translatable="yes">Date 3</property>
                   </object>
                   <packing>
@@ -955,10 +951,9 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry21">
+                  <object class="GtkEntry" id="entry29">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="invisible_char">●</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -967,10 +962,9 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkEntry" id="entry6">
+                  <object class="GtkEntry" id="entry30">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
-                    <property name="invisible_char">●</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -982,7 +976,7 @@
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
-                <property name="position">4</property>
+                <property name="position">5</property>
               </packing>
             </child>
           </object>
