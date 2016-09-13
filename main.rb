@@ -4,24 +4,25 @@ require_relative 'Gui'
 
 if __FILE__ == $0
 
-	# ARGV.each do|a|
-	# 	puts "Argument: #{a}"
-	# end
+  # ARGV.each do|a|
+    # puts "Argument: #{a}"
+  # end
 
-	require 'optparse'
+  require 'optparse'
 
-	options = {}
-	OptionParser.new do |opts|
-	  opts.banner = "Usage: example.rb [options]"
+  options = {}
+  OptionParser.new do |opts|
+    opts.banner = "Usage: example.rb [options]"
 
-	  opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
-	    options[:verbose] = v
-	  end
-	end.parse!
+    opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
+      options[:verbose] = v
+    end
+  end.parse!
 
-	p options
-	p ARGV
+  p options
+  p ARGV
 
-	Gui.new
+  g = Gui.new
+  g.main
 
 end
