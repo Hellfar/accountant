@@ -3,7 +3,7 @@
 require 'gtk3'
 
 class Glade < Gtk::Builder
-  def initialize gladeStruct, rootObject = "window1", filename = true, main = true
+  def initialize gladeStruct, filename = true
     super()
 
     if filename
@@ -11,25 +11,26 @@ class Glade < Gtk::Builder
     else
       fromString gladeStruct
     end
-
-    @main = main
-    if main
-      self[rootObject].signal_connect('destroy') { Gtk.main_quit }
-      self[rootObject].show_all
-      self.connect_signals{ |handler| method(handler) }
-    end
   end
+
   def fromFile gladeFile
     self.add_from_file(gladeFile)
   end
   def fromString gladeString
     self.add_from_string(gladeString)
   end
+
+  def destroy_handler rootObject = "window1"
+    self[rootObject].signal_connect('destroy') { Gtk.main_quit }
+    self[rootObject].show_all
+    self.connect_signals{ |handler| method(handler) }
+  end
 end
 
 if __FILE__ == $0
 
   builder = Glade.new("window1.glade")
+  builder.destroy_handler
   Gtk.main
 
 end
