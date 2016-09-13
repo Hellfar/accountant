@@ -9,14 +9,14 @@ class Gui < Glade
     self.destroy_handler "window-main1"
 
     self["button-addevent1"].signal_connect 'clicked' do
-      self.append
+      self.append "grid-template-constructed0", "box-eventpile1"
     end
   end
   def main
     Gtk.main
   end
 
-  def append template = "grid-template-constructed0", parent = "box-eventpile1"
+  def append template, parent
     t = Glade.new "account.glade"
 
     self[parent].add t[template]
