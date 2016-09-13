@@ -4,6 +4,8 @@ require 'gtk3'
 
 class Glade < Gtk::Builder
   def initialize gladeStruct, filename = true
+    @gladeStruct = gladeStruct
+
     super()
 
     if filename

@@ -16,10 +16,17 @@ class Gui < Glade
     Gtk.main
   end
 
-  def append template, parent
-    t = Glade.new "account.glade"
+  def append template, parent, fileStruct = nil
+    fileStruct = @gladeStruct unless fileStruct
 
-    self[parent].add t[template]
+    template_glade = Glade.new fileStruct
+
+    template_glade["button-delete0"].signal_connect 'clicked' do
+      self[parent].remove template_glade[template]
+      template_glade = nil
+    end
+
+    self[parent].add template_glade[template]
   end
 end
 
