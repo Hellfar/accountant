@@ -4,7 +4,7 @@ require_relative 'Glade'
 
 class Gui < Glade
   def initialize fileStruct = "account.glade", filename = true
-    super(fileStruct, "window-main1", filename)
+    super(fileStruct, "window-main1", filename, true)
 
     self["button-addevent1"].signal_connect "clicked" do
       self.append
@@ -15,7 +15,9 @@ class Gui < Glade
   end
 
   def append template = "grid-template-constructed0", parent = "box-eventpile1"
-    self[parent].add self[template]
+    t = Glade.new "account.glade", nil, true, false
+
+    self[parent].add t[template]
   end
 end
 
